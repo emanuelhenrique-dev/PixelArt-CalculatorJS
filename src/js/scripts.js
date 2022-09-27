@@ -47,11 +47,11 @@ class Calculator {
         operationValue = previous - current
         this.updateScreen(operationValue, operation, current, previous)
         break
-      case '*':
+      case 'x':
         operationValue = previous * current
         this.updateScreen(operationValue, operation, current, previous)
         break
-      case '/':
+      case '÷':
         operationValue = previous / current
         this.updateScreen(operationValue, operation, current, previous)
         break
@@ -95,7 +95,7 @@ class Calculator {
 
   // Mudar a operacao usada
   changeOperation(operation) {
-    const mathOperations = ['*', '-', '+', '/']
+    const mathOperations = ['x', '-', '+', '÷']
 
     if (!mathOperations.includes(operation)) {
       return
