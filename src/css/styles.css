@@ -68,7 +68,7 @@ body {
   padding: 1rem;
   overflow-wrap: break-word;
   min-height: 1.6em;
-  text-align: left;
+  text-align: right;
 }
 
 #current-operation {
